@@ -2,7 +2,7 @@
 import { useState, useReducer } from "react";
 
 function generateSecretNumber(): number {
-  return 54;
+  return Math.floor(Math.random() * 100);
 }
 
 type GameState = {
